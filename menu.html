@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul.menu >li{
+            height: 50px;width: 200px; background-color: aquamarine;
+            text-indent: 15px;
+            list-style: none;
+            float: left;
+            line-height: 50px;
+            position: relative;
+        }
+       
+        ul.menu>li>a{
+            text-decoration: none;
+            font-weight: bold;
+            display: block;
+        }
+        ul.menu >li:hover{
+            background-color: rgb(248, 244, 24);
+        }
+        li:hover>a{
+            color: rgb(243, 41, 152);
+            font-style:initial ;
+           
+        }
+        ul.spmenu{
+            width: 250px; 
+            background-color: aqua;
+            min-height: auto;
+            display: none;
+            position: absolute;
+        }
+        ul.spmenu li{
+            list-style: none;
+        }
+        ul.spmenu li a{
+            display: block;
+            border-top: 1px solid rgb(33, 247, 14);
+            line-height: 40px;
+            text-indent: 15px ;
+            text-decoration: none;
+            font-weight: bold;
+            
+        }
+        ul.menu li:hover ul.spmenu{
+            display: block;
+        }
+        ul.spmenu1{
+            width: 250px; 
+            background-color: aqua;
+            min-height: auto;
+            display: none;
+            position: absolute;
+        }
+        ul.spmenu1 li{
+            list-style: none;
+        }
+        ul.spmenu1 li a{
+            display: block;
+            border-top: 1px solid rgb(33, 247, 14);
+            line-height: 40px;
+            text-indent: 15px ;
+            text-decoration: none;
+            font-weight: bold;
+            
+        }
+        ul.menu li:hover ul.spmenu1{
+            display: block;
+        }
+        ul.spmenu2{
+            width: 250px; 
+            background-color: aqua;
+            min-height: auto;
+            display: none;
+            position: absolute;
+        }
+        ul.spmenu2 li{
+            list-style: none;
+        }
+        ul.spmenu2 li a{
+            display: block;
+            border-top: 1px solid rgb(33, 247, 14);
+            line-height: 40px;
+            text-indent: 15px ;
+            text-decoration: none;
+            font-weight: bold;
+            
+        }
+        ul.menu li:hover ul.spmenu2{
+            display: block;
+        }
+    </style>
+
+</head>
+<body>
+    <nav>
+        <ul class="menu">
+            <li> <a href="#">menu1</a> 
+                <ul class="spmenu">
+                    <li><a href="">con1</a></li>
+                    <li><a href="">con2</a></li>
+                    <li><a href="">con3</a></li>
+                </ul>
+            </li>
+            <li> <a href="#">menu2</a>
+                <ul class="spmenu1">
+                    <li><a href="">con1</a></li>
+                    <li><a href="">con2</a></li>
+                    <li><a href="">con3</a></li>
+                </ul>
+            </li>
+            <li> <a href="#">menu3</a>
+                <ul class="spmenu2">
+                    <li><a href="">con1</a></li>
+                    <li><a href="">con2</a></li>
+                    <li><a href="">con3</a></li>
+                </ul>
+            </li>
+            
+        </ul>
+    
+    </nav>
+</body>
+</html>
